@@ -1,0 +1,76 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#wrapper{
+        width: 970px;
+        margin : 0 auto;
+}
+
+#data_entry{
+    width: 350px;
+    display: inline-block;
+    border-style: dashed;
+    padding-top: 10px;
+}
+
+#contacts{
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+form {
+    display: block;
+}
+
+form input{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+form p{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 100px;
+    padding-right: 20px;
+}
+
+#Description{
+    width: 200px;
+}
+
+
+#btnSubmit{
+    width:100px;
+    margin-top:  10px;
+    margin-left: 225px;
+}
+
+#btnClear{
+    width:100px;
+    margin-left: 225px;
+}
+
+.contact_card{
+    border-style: dashed;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.contact_card p, h2{
+    text-align: center;
+}
+
+.contact_card h2{
+    color: blue;
+}
